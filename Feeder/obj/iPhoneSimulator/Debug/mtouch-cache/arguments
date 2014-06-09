@@ -1,0 +1,31 @@
+# Version: 7.2.3.39 (fc6f56b)
+# [first argument, ignore] # /Users/Derek/Projects/Feeder/Feeder/bin/iPhoneSimulator/Debug/mtouch.exe
+/Developer/MonoTouch/usr/bin/mtouch \
+	-sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--cache \
+	/Users/Derek/Projects/Feeder/Feeder/obj/iPhoneSimulator/Debug/mtouch-cache \
+	--nomanifest \
+	--nosign \
+	-sim \
+	/Users/Derek/Projects/Feeder/Feeder/bin/iPhoneSimulator/Debug/Feeder.app \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.Xml.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.Core.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/monotouch.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.Net.Http.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.Xml.Linq.dll \
+	-debug \
+	-nolink \
+	-sdk \
+	7.1 \
+	-targetver \
+	7.0 \
+	--abi=i386 \
+	/Users/Derek/Projects/Feeder/Feeder/bin/iPhoneSimulator/Debug/Feeder.exe \
